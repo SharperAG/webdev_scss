@@ -1,0 +1,26 @@
+.footer {
+  margin-top: 3rem auto;
+
+  padding: 1rem;
+
+  .footer-items {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+
+    .footer-item {
+      color: $black-bright;
+      font-size: 0.8rem;
+    }
+
+    .footer-item__icon {
+      margin-right: 1rem;
+      width: 1.2rem;
+      opacity: 0.5;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

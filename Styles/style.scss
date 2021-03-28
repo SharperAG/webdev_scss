@@ -1,0 +1,28 @@
+$nice-blue: #4a90e2;
+$whitty: rgb(240, 240, 240);
+$blue-bright: #6da2df;
+$black-bright: #332525;
+$bg-color: #fafafa;
+
+@import "_button.scss";
+@import "_header.scss";
+@import "_section_main.scss";
+@import "_section_about.scss";
+@import "_footer.scss";
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

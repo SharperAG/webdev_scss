@@ -1,0 +1,11 @@
+.btn-blue {
+  background-color: $nice-blue;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px -1px 1px (rgba(0, 0, 0, 0.2));
+  width: 11rem;
+  height: 2.9rem;
+  &:hover {
+    background-color: $blue-bright;
+  }
+}
