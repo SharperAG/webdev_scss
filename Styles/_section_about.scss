@@ -23,9 +23,7 @@
       }
 
       .section_about__link a {
-        text-decoration: none;
-        color: $blue-bright;
-        font-size: 0.9rem;
+        @include links-style;
       }
 
       .section-about__item__img {

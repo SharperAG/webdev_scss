@@ -4,6 +4,13 @@ $blue-bright: #6da2df;
 $black-bright: #332525;
 $bg-color: #fafafa;
 
+@mixin links-style {
+  color: $nice-blue;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
 @import "_button.scss";
 @import "_header.scss";
 @import "_section_main.scss";
@@ -12,6 +19,7 @@ $bg-color: #fafafa;
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {

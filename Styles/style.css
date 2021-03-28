@@ -174,7 +174,7 @@
   color: #4a90e2;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 640px) {
@@ -223,8 +223,9 @@
 }
 
 .section-about .section-about__items .section-about__item .section_about__link a {
+  color: #4a90e2;
   text-decoration: none;
-  color: #6da2df;
+  font-weight: 600;
   font-size: 0.9rem;
 }
 
@@ -288,6 +289,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
